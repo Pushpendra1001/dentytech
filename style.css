@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+#main {
+    height: 100vh;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+nav a {
+    text-decoration: none;
+    border: 0.1px solid black;
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw;
+}
+
+#nav-mid {
+    display: flex;
+
+    align-items: center;
+}
+
+#nav-mid i {
+    border-radius: 50%;
+    background-color: orangered;
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#signup {
+    background-color: orangered;
+    color: white;
+}
+
+.card {
+    height: 50vh;
+    width: 40vh;
+    /* background-color: yellow; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.card img {
+    border-radius: 7px;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5vw;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+
+}
+
+
+
+
+
+.card img:nth-child(5) {
+    rotate: 0deg;
+}
+
+.card img:nth-child(4) {
+    rotate: -5deg;
+}
+
+.card img:nth-child(3) {
+    rotate: -10deg;
+}
+
+.card img:nth-child(2) {
+    rotate: -15deg;
+}
+
+.card img:nth-child(1) {
+    rotate: -20deg;
+}
+
+#bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw;
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+}
+
+#right #social-media {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#right #social-media i {
+    font-size: 22px;
+}
+
+#bottom #left {
+    display: flex;
+    align-items: end;
+}
+
+#right h4 {
+    font-size: 15px;
+}
